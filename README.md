@@ -26,5 +26,10 @@ rm -rf ~/.config/nvim/.git
 nvim
 ```
 
+### Mappings
+
+Find detailed docs [here](https://docs.astronvim.com/mappings)
+
+> Custom Mapping: `kj` has been Mapped to `<Esc>` in insert mode
+
 This is a fork of the original [AstroNvim Repository](https://github.com/AstroNvim/template)
-# nvim
