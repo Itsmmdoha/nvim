@@ -31,5 +31,10 @@ nvim
 Find detailed docs [here](https://docs.astronvim.com/mappings)
 
 > Custom Mapping: `kj` has been Mapped to `<Esc>` in insert mode
+> with:
+> ```lua
+> vim.keymap.set("i", "kj", "<Esc>", options)
+> ```
+> in the init.lua file
 
 This is a fork of the original [AstroNvim Repository](https://github.com/AstroNvim/template)
