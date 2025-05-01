@@ -8,6 +8,24 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### Requirements
   1. Nerd Font (JetBrains Mono is my favorite)
   2. Neovim v0.9.5+ (Not including nightly)
+  3. Nerd font (Optional)
+
+#### Install a JetBrainsMono nerd font
+
+```bash
+wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip"
+unzip JetBrainsMono.zip
+rm JetBrainsMono.zip
+sudo mv JetBrains*.ttf /usr/share/fonts/
+fc-cache -f -v
+```
+    
+verify font installation 
+    
+```bash
+fc-list
+```
+
 
 Make a backup of your current nvim config (if exists)
 
